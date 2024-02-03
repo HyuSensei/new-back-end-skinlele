@@ -1,24 +1,24 @@
 {
   "development": {
-    "username": "postgres",
+    "username": "postgres.vvmnmswfzgldbafvcjap",
     "password": "Huyphan2002@",
     "database": "skinlele-react",
-    "host": "db.elanygpgfrapwdrouemh.supabase.co",
+    "host": "aws-0-ap-southeast-1.pooler.supabase.com",
     "dialect": "postgres",
     "logging":false
   },
   "test": {
-    "username": "postgres",
+    "username": "postgres.vvmnmswfzgldbafvcjap",
     "password": "Huyphan2002@",
     "database": "skinlele-react",
-    "host": "db.elanygpgfrapwdrouemh.supabase.co",
+    "host": "aws-0-ap-southeast-1.pooler.supabase.com",
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
+    "username": "postgres.vvmnmswfzgldbafvcjap",
     "password": "Huyphan2002@",
     "database": "skinlele-react",
-    "host": "db.elanygpgfrapwdrouemh.supabase.co",
+    "host": "aws-0-ap-southeast-1.pooler.supabase.com",
     "dialect": "postgres"
   }
 }

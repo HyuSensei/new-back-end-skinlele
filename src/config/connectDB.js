@@ -1,9 +1,14 @@
 const { Sequelize } = require("sequelize");
 
-const sequelize = new Sequelize("skinlele-react", "postgres", "Huyphan2002@", {
-  host: "db.elanygpgfrapwdrouemh.supabase.co",
-  dialect: "postgres",
-});
+const sequelize = new Sequelize(
+  "skinlele-react",
+  "postgres.vvmnmswfzgldbafvcjap",
+  "Huyphan2002@",
+  {
+    host: "aws-0-ap-southeast-1.pooler.supabase.com",
+    dialect: "postgres",
+  }
+);
 const connection = async () => {
   try {
     await sequelize.authenticate();
